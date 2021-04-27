@@ -1,0 +1,31 @@
+.tars_benefits_area {
+  margin-bottom: 300px;
+}
+.tars_benefits_title {
+  text-align: center;
+  font-size: 3.5rem;
+  color: #707070;
+  margin-bottom: 80px;
+}
+
+/* TABLET */
+@media (max-width: 1200px) {
+  .tars_benefits_area {
+    margin-bottom: 150px;
+  }
+  .tars_benefits_title {
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+  }
+}
+
+/* SMARTPHONE */
+@media (max-width: 767px) {
+  .tars_benefits_area {
+    margin-bottom: 80px;
+  }
+  .tars_benefits_title {
+    font-size: 1.875rem;
+    margin-bottom: 50px;
+  }
+}

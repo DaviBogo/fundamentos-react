@@ -1,0 +1,40 @@
+.background_monitoring_process {
+  background-color: white;
+  padding: 54px 8px;
+  margin-bottom: 200px;
+}
+
+.monitoring_process_section_title {
+  text-align: center;
+  color: #707070;
+  font-size: 3rem;
+}
+
+.buttonConferir {
+  background-color: #00c0fa;
+  color: white;
+  height: 56px;
+}
+
+/* TABLET */
+@media (max-width: 1200px) {
+  .background_monitoring_process {
+    margin-bottom: 150px;
+  }
+  .monitoring_process_section_title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+/* SMARTPHONE */
+@media (max-width: 767px) {
+  .background_monitoring_process {
+    padding: 24px 8px;
+    margin-bottom: 80px;
+  }
+  .monitoring_process_section_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

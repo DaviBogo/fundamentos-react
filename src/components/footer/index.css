@@ -1,0 +1,79 @@
+.background_footer {
+  background: url(../../assets/backgrounds/BARRA_WEB.png) no-repeat center
+    center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin-top: -200px;
+}
+
+.footerContentArea {
+  padding-top: 350px;
+}
+
+.footer_title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.icone_rede_social_footer {
+  width: 30%;
+}
+
+/* TABLET */
+@media (max-width: 1366px) {
+  .footer_title {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 1200px) {
+  .background_footer {
+    background: url(../../assets/backgrounds/BARRA_MOBILE_TABLET.png) no-repeat
+      center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+  }
+  .footerContentArea {
+    padding-top: 100px;
+  }
+  .footer_title {
+    font-size: 1.75rem;
+  }
+  .icone_rede_social_footer {
+    width: 80%;
+  }
+}
+
+/* SMARTPHONE */
+@media (max-width: 767px) {
+  .background_footer {
+    background: url(../../assets/backgrounds/BARRA_MOBILE_TABLET.png) no-repeat
+      center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+  }
+  .footerContentArea {
+    padding-top: 100px;
+  }
+  .footer_title {
+    font-size: 1rem;
+  }
+  .icone_rede_social_footer {
+    width: 100%;
+  }
+}

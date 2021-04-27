@@ -1,0 +1,56 @@
+.contact_section_title {
+  font-size: 2rem;
+  color: #707070;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 135px;
+}
+
+.title_card_contact {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #7f7f7f;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.icone_contact {
+  width: 14px;
+  margin-right: 6px;
+}
+
+.text_card_contact {
+  text-align: center;
+  color: #707070;
+  font-size: 1.25rem;
+}
+
+/* TABLET */
+@media (max-width: 1200px) {
+  .contact_area {
+    margin-bottom: 48px;
+  }
+  .contact_section_title {
+    font-size: 2.5rem;
+    margin-bottom: 32px;
+  }
+  .title_card_contact {
+    font-size: 1.5rem;
+  }
+  .text_card_contact {
+    font-size: 1rem;
+  }
+}
+
+/* SMARTPHONE */
+@media (max-width: 767px) {
+  .contact_area {
+    margin-bottom: 24px;
+  }
+  .contact_section_title {
+    font-size: 1.5rem;
+  }
+  .title_card_contact {
+    font-size: 1rem;
+  }
+}

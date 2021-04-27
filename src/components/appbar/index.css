@@ -1,0 +1,89 @@
+header {
+    background-color: rgba(55, 82, 157, 0.85);
+    position: fixed;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo_integral {
+    width: 100%;
+}
+
+.divider_appbar {
+    width: 1px;
+    height: 98px;
+    margin: 0px 25px;
+    background-color: white;
+}
+
+.icone_rede_social {
+    width: 100%;
+}
+
+.btnMenu {
+    display: block;
+    margin: 0px auto;
+    color: white;
+    font-size: 1.625rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: #707070;
+}
+
+
+/* Media queries */
+
+@media (max-width: 1200px) {
+    header {
+        background-color: rgba(55, 82, 157, 0.85);
+        height: 140px;
+    }
+    .logo_integral {
+        width: 80%;
+    }
+    .divider_appbar {
+        height: 28px;
+        margin: 0px 0px;
+    }
+    .icone_rede_social {
+        display: none;
+    }
+    .btnMenu {
+        font-size: 1rem;
+    }
+    .divider {
+        width: 4px;
+        height: 28px;
+        margin: 0px 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        background-color: rgba(55, 82, 157, 0.85);
+        height: 120px;
+    }
+    .logo_integral {
+        width: 70%;
+    }
+    .icone_rede_social {
+        display: none;
+    }
+    .btnMenu {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .divider {
+        height: 20px;
+        margin: 0px 16px;
+    }
+}

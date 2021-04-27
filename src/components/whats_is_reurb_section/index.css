@@ -1,0 +1,38 @@
+.reurbDescriptionSection {
+  background: "none";
+  margin-bottom: 300px;
+}
+.reurbLogo {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.reurbDescription {
+  color: #7f7f7f;
+  text-align: justify;
+  font-size: 2rem;
+}
+
+/* SMARTPHONE */
+@media (max-width: 1200px) {
+  .reurbLogo {
+    margin-bottom: 50px;
+  }
+  .reurbDescription {
+    font-size: 1.625rem;
+  }
+}
+
+/* SMARTPHONE */
+@media (max-width: 767px) {
+  .reurbDescriptionSection {
+    margin-bottom: 170px;
+  }
+  .reurbLogo {
+    margin-bottom: 28px;
+  }
+  .reurbDescription {
+    font-size: 1rem;
+  }
+}
